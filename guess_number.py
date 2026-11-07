@@ -35,13 +35,13 @@ if flag:
 
 
 
-# for number in range(1, 100):
-#     if number % 10 == 1 and number != 11:
-#         print('плитка')
-#     elif number % 10 == 2 or number % 10 == 3 or number % 10 == 4:
-#         print('плитки')
-#     else:
-#         print('плиток')
+for number in range(1, 100):
+    if number % 10 == 1 and number != 11:
+        print('плитка')
+    elif number % 10 == 2 or number % 10 == 3 or number % 10 == 4:
+        print('плитки')
+    else:
+        print('плиток')
 
 
 print(number)
